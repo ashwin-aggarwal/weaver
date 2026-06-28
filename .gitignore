@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Data — PDFs and user uploads (never commit)
+data/papers/
+*.pdf
+
+# Generated outputs
+weaver_graph.html
+lib/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
